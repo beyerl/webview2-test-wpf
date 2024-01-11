@@ -16,11 +16,11 @@
             Click="ButtonGo_Click"
             Content="Go"
         />
-            <TextBox Name="addressBar"/>
+			<TextBox Name="addressBar" Text="https://beyerl.github.io/webview2-test-postmessage"/>
         </DockPanel>
         
         <wv2:WebView2 Name="webView"
-                  Source="https://www.microsoft.com"
+                  Source="https://beyerl.github.io/webview2-test-postmessage"
         />
     </DockPanel>
     
